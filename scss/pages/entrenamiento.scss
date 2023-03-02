@@ -1,0 +1,102 @@
+
+
+#sectionTraining{
+
+    .text-training-title{
+        font-family: 'Fira Sans', sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 25px;
+        margin: 0%;
+    }
+
+    .text-training-p{
+        font-size: 15px;
+    }
+    .card-numbre-left{
+        font-family: 'Fira Sans', sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        width: 100%;
+        display: flex;
+        align-items:center ;
+        justify-content:left;
+        font-size: 50px;
+    }
+
+    .card-numbre-right{
+        font-family: 'Fira Sans', sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        width: 100%;
+        display: flex;
+        align-items:center ;
+        justify-content:right;
+        font-size: 50px;
+    }
+
+    .card-text{
+        padding: 10px 0px;
+    }
+
+    .training-img{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .trainingImg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-orange{
+        padding: 50px 50px;
+        background-color: $primary-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-white{
+        padding:  50px 50px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aline{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+
+}
+
+
+@media(max-width:576px){
+    
+    /* Seccion training*/
+
+    .aline{
+        flex-direction: column-reverse;
+    } 
+    .card-numbre-right{
+        font-size: 35px;
+        justify-content:left;    
+    }   
+    
+    .text-training-title{
+        font-size: 20px;
+        
+    }
+    .card-numbre-left{
+        font-size: 35px;
+    }
+    .text-training-p{
+        font-size: 12px;
+    }
+}

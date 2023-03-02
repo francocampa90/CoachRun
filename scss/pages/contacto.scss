@@ -1,0 +1,76 @@
+
+
+/*Seccion Page Objetivos*/
+#sectionGoals{
+
+    
+    .text-goals{
+        width: 100%;
+        padding:  0px 20px;
+        
+    }
+    .contact__title{
+        width: 100% ;
+    }
+    
+    }
+    
+     
+    /*Seccion Formulario*/
+    #sectionForm{
+        
+        .form{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .form__contact{
+            width: 400px;
+            background-color:#254e69;
+            padding: 50px;
+            margin: 50px;
+            border-radius: 4px;
+            
+        }
+    
+        .controls{
+            width: 100%;
+            background-color: #f7f5f4;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid #4885ad;
+            font-size: 18px;
+        }
+    
+        .cta_btn{
+            margin: 10px 0;
+            color: #FA6A2B;
+            border: 1px solid #FA6A2B;
+            padding: 12px 34px;
+            font-size: 20px;
+            background-color: transparent;
+    
+                &:hover{
+                    color: white;
+                    border: 1px solid $primary-color;
+                    background-color: $primary-color;
+                }
+    
+        }
+    
+    
+    }
+    
+    @media(max-width:576px){
+        
+        /* Seccion formulario*/
+        .form__contact{
+            padding: 30px 30px;
+            margin: 30px;  
+        }
+        }
+    
+    

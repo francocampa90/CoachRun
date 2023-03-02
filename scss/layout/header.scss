@@ -1,0 +1,101 @@
+
+header{
+    background-image: url(../img/Header001.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500; 
+
+    .h100{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 92.5vh;
+    }
+    
+    .title-center{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        a{
+            &:hover{
+                color: $primary-color;
+            }
+            
+        }
+
+    }
+
+    .run{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 40px;
+    }
+
+    .btn-orange-custom{
+        background-color: $primary-color;
+    }
+    
+    .title-custom{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 75px;
+        
+    }
+    .title2-custom{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 45px;
+    
+    } 
+    
+    
+    .text-blue-custom{
+        color: $secundary-color;
+        font-family: 'Fira Sans', sans-serif;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+
+}
+
+
+
+    /* ----------Medias query mobile---------------*/
+    
+    
+    @media(max-width:576px){
+        
+        /* Seccion Titulo menu*/
+            .title-custom{
+                font-size: 30px;   
+            }
+            .title2-custom{
+              font-size: 15px;
+            } 
+            .run{
+                font-size: 15px;   
+            } 
+        }
+
+
+
+
+
+
+

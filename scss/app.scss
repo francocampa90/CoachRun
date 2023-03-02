@@ -1,0 +1,19 @@
+
+//General
+@import "./general/reset.scss";
+@import "./general/typography.scss";
+@import "./general/color.scss";
+
+
+//Layout
+@import "./layout/header.scss";
+@import "./layout/main.scss";
+@import "./layout/footer.scss";
+
+
+//Pages
+@import "./pages/index.scss";
+@import "./pages/entrenamiento.scss";
+@import "./pages/carreras.scss";
+@import "./pages/galeria.scss";
+@import "./pages/contacto.scss";

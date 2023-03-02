@@ -1,0 +1,16 @@
+
+#SectionContact{
+    
+    .contact{
+        padding: 15px;
+        background-color: $primary-color;
+    }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Fira Sans', sans-serif;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 30;
+        }
+}
