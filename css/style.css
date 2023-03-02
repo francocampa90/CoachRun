@@ -397,21 +397,18 @@ html{
     
 }
 
-.sliderCareers2 .sliderTrack2{
+.sliderTrack2{
     display: flex;
     animation: scroll 60s linear infinite;
     -webkit-animation: scroll 60s linear infinite;
     width: calc(400px * 14);
 }
 
-.sliderCareers2 .slide2{
+.slide2{
     width: 200px;
 }
 
-
-
-
-.sliderCareers2 .slide2 img{
+.slide2 img{
     width: 100%;
 }
 
