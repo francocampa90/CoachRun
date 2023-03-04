@@ -201,9 +201,15 @@ footer {
   font-weight: 500;
   font-size: 25px;
   margin: 0%; }
+  @media (max-width: 576px) {
+    #sectionTraining .text-training-title {
+      font-size: 20px; } }
 
 #sectionTraining .text-training-p {
   font-size: 15px; }
+  @media (max-width: 576px) {
+    #sectionTraining .text-training-p {
+      font-size: 12px; } }
 
 #sectionTraining .card-numbre-left {
   font-family: 'Fira Sans', sans-serif;
@@ -214,6 +220,9 @@ footer {
   align-items: center;
   justify-content: left;
   font-size: 50px; }
+  @media (max-width: 576px) {
+    #sectionTraining .card-numbre-left {
+      font-size: 35px; } }
 
 #sectionTraining .card-numbre-right {
   font-family: 'Fira Sans', sans-serif;
@@ -224,6 +233,10 @@ footer {
   align-items: center;
   justify-content: right;
   font-size: 50px; }
+  @media (max-width: 576px) {
+    #sectionTraining .card-numbre-right {
+      font-size: 35px;
+      justify-content: left; } }
 
 #sectionTraining .card-text {
   padding: 10px 0px; }
@@ -256,20 +269,13 @@ footer {
   align-items: center;
   justify-content: space-between;
   flex-direction: row; }
+  @media (max-width: 576px) {
+    #sectionTraining .aline {
+      flex-direction: column-reverse; } }
 
-@media (max-width: 576px) {
-  /* Seccion training*/
-  .aline {
-    flex-direction: column-reverse; }
-  .card-numbre-right {
-    font-size: 35px;
-    justify-content: left; }
-  .text-training-title {
-    font-size: 20px; }
-  .card-numbre-left {
-    font-size: 35px; }
-  .text-training-p {
-    font-size: 12px; } }
+@media (min-width: 576px) and (max-width: 768px) {
+  #sectionTraining .trainingText {
+    padding: 0px 50px; } }
 
 #sectionCarousel .sliderCareers2 {
   width: 100%;
