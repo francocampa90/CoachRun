@@ -33,14 +33,6 @@ header {
     flex-direction: column; }
     header .title-center a:hover {
       color: #FA6A2B; }
-  header .run {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 40px; }
-  header .btn-orange-custom {
-    background-color: #FA6A2B; }
   header .title-custom {
     width: 100%;
     display: flex;
@@ -48,6 +40,9 @@ header {
     justify-content: center;
     color: white;
     font-size: 75px; }
+    @media (max-width: 576px) {
+      header .title-custom {
+        font-size: 35px; } }
   header .title2-custom {
     width: 100%;
     display: flex;
@@ -55,22 +50,44 @@ header {
     justify-content: center;
     color: white;
     font-size: 45px; }
+    @media (max-width: 576px) {
+      header .title2-custom {
+        font-size: 18px; } }
   header .text-blue-custom {
     color: #254E69;
     font-family: 'Fira Sans', sans-serif;
     font-style: italic;
     font-weight: 500; }
+  header .run {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px; }
+    @media (max-width: 576px) {
+      header .run {
+        font-size: 15px; } }
+  header .btn-orange-custom {
+    background-color: #FA6A2B; }
 
 /* ----------Medias query mobile---------------*/
-@media (max-width: 576px) {
-  /* Seccion Titulo menu*/
-  .title-custom {
-    font-size: 30px; }
-  .title2-custom {
-    font-size: 15px; }
-  .run {
-    font-size: 15px; } }
+/*   
+    @media(max-width:576px){
+            
+        /* Seccion Titulo menu
+            .title-custom{
+                font-size: 10px;
+                color: red;   
+            }
+            .title2-custom{
+            font-size: 15px;
+            } 
+            .run{
+                font-size: 15px;   
+            } 
+        }
 
+    */
 #SectionContact .contact {
   padding: 15px;
   background-color: #FA6A2B; }

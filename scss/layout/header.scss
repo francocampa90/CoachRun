@@ -14,7 +14,6 @@ header{
         width: 100%;
         height: 92.5vh;
     }
-    
     .title-center{
         width: 100%;
         height: 100%;
@@ -32,17 +31,6 @@ header{
 
     }
 
-    .run{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-size: 40px;
-    }
-
-    .btn-orange-custom{
-        background-color: $primary-color;
-    }
     
     .title-custom{
         width: 100%;
@@ -51,6 +39,9 @@ header{
         justify-content: center;
         color: white;
         font-size: 75px;
+            @media(max-width:576px){
+                font-size: 35px;   
+            }
         
     }
     .title2-custom{
@@ -60,6 +51,9 @@ header{
         justify-content: center;
         color: white;
         font-size: 45px;
+        @media(max-width:576px){
+            font-size: 18px;
+            }
     
     } 
     
@@ -71,6 +65,21 @@ header{
         font-weight: 500;
     }
 
+    .run{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 40px;
+        @media(max-width:576px){
+            font-size: 15px;
+            }
+    }
+
+    .btn-orange-custom{
+        background-color: $primary-color;
+    }
+    
 
 }
 
@@ -78,22 +87,23 @@ header{
 
     /* ----------Medias query mobile---------------*/
     
-    
+ /*   
     @media(max-width:576px){
-        
-        /* Seccion Titulo menu*/
+            
+        /* Seccion Titulo menu
             .title-custom{
-                font-size: 30px;   
+                font-size: 10px;
+                color: red;   
             }
             .title2-custom{
-              font-size: 15px;
+            font-size: 15px;
             } 
             .run{
                 font-size: 15px;   
             } 
         }
 
-
+    */
 
 
 
