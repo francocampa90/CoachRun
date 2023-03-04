@@ -356,11 +356,9 @@ footer {
 
 /*Seccion Page Objetivos*/
 #sectionGoals .text-goals {
+  margin: 40px 0px 0px 0px;
   width: 100%;
   padding: 0px 20px; }
-
-#sectionGoals .contact__title {
-  width: 100%; }
 
 /*Seccion Formulario*/
 #sectionForm .form {
@@ -375,6 +373,10 @@ footer {
   padding: 50px;
   margin: 50px;
   border-radius: 4px; }
+  @media (max-width: 576px) {
+    #sectionForm .form__contact {
+      padding: 30px 30px;
+      margin: 30px; } }
 
 #sectionForm .controls {
   width: 100%;
@@ -396,9 +398,3 @@ footer {
     color: white;
     border: 1px solid #FA6A2B;
     background-color: #FA6A2B; }
-
-@media (max-width: 576px) {
-  /* Seccion formulario*/
-  .form__contact {
-    padding: 30px 30px;
-    margin: 30px; } }
