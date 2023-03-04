@@ -106,13 +106,19 @@ footer {
     padding: 10px;
     font-size: 13px; } }
 
+#sectionAbout .text-blue-custom {
+  color: #254E69;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+  font-weight: 500; }
+
 /*--animacion tarjeta--*/
-.coach {
+#sectionCoach .coach {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.coach-card {
+#sectionCoach .coach-card {
   font-family: 'Fira Sans', sans-serif;
   font-style: italic;
   font-weight: 500;
@@ -123,14 +129,14 @@ footer {
   border-radius: 20px;
   box-shadow: 0 35px 80px rgba 0, 0, 0, 0.15;
   transition: 0.5s; }
-  .coach-card:hover .imgBx {
+  #sectionCoach .coach-card:hover .imgBx {
     width: 210px;
     height: 210px; }
-  .coach-card:hover {
+  #sectionCoach .coach-card:hover {
     height: 450px; }
-  .coach-card:hover .coach-text-card {
+  #sectionCoach .coach-card:hover .coach-text-card {
     transform: translateY(0px); }
-  .coach-card .imgBx {
+  #sectionCoach .coach-card .imgBx {
     position: absolute;
     left: 50%;
     top: -50px;
@@ -142,7 +148,7 @@ footer {
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
     overflow: hidden;
     transition: 0.5s; }
-    .coach-card .imgBx img {
+    #sectionCoach .coach-card .imgBx img {
       position: absolute;
       top: 0%;
       left: 0%;
@@ -150,7 +156,7 @@ footer {
       height: 100%;
       object-fit: cover; }
 
-.coach-content {
+#sectionCoach .coach-content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -158,30 +164,30 @@ footer {
   justify-content: center;
   align-items: flex-end;
   overflow: hidden; }
-  .coach-content .coach-text-card {
+  #sectionCoach .coach-content .coach-text-card {
     padding: 40px;
     text-align: center;
     width: 100%;
     transition: 0.5s;
     transform: translateY(210px); }
     @media (min-width: 576px) and (max-width: 768px) {
-      .coach-content .coach-text-card {
+      #sectionCoach .coach-content .coach-text-card {
         padding: 9px; } }
-    .coach-content .coach-text-card h2 {
+    #sectionCoach .coach-content .coach-text-card h2 {
       font-family: 'Fira Sans', sans-serif;
       font-style: italic;
       font-weight: 500;
       font-size: 20px;
       color: white;
       line-height: 1.2em; }
-    .coach-content .coach-text-card h2 span {
+    #sectionCoach .coach-content .coach-text-card h2 span {
       font-size: 18px;
       font-weight: 500;
       opacity: 0.7; }
-  .coach-content .coach-text-p {
+  #sectionCoach .coach-content .coach-text-p {
     display: flex;
     margin: 20px 0px; }
-    .coach-content .coach-text-p p {
+    #sectionCoach .coach-content .coach-text-p p {
       font-family: 'Fira Sans', sans-serif;
       font-style: italic;
       font-weight: 500;
