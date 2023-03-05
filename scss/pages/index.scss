@@ -3,7 +3,7 @@
 #sectionAbout{
     .text-blue-custom{
         color: #254E69 ;
-        font-family: 'Fira Sans', sans-serif;
+        font-family:$title-typography;
         font-style: italic;
         font-weight: 500;
         h2{
@@ -26,7 +26,7 @@
     }
 
     .coach-card{
-        font-family: 'Fira Sans', sans-serif;
+        font-family: $title-typography;
         font-style: italic;
         font-weight: 500;
         position: relative;
@@ -94,7 +94,7 @@
             }
 
             h2{
-                font-family: 'Fira Sans', sans-serif;
+                font-family: $title-typography;
                 font-style: italic;
                 font-weight: 500;
                 font-size: 20px;
@@ -113,7 +113,7 @@
             display: flex;
             margin: 20px 0px;
             p{
-                font-family: 'Fira Sans', sans-serif;
+                font-family: $title-typography;
                 font-style: italic;
                 font-weight: 500;
                 font-size: 18px;

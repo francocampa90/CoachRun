@@ -4,7 +4,7 @@ header{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: $title-typography;
     font-style: italic;
     font-weight: 500; 
 
@@ -60,7 +60,7 @@ header{
     
     .text-blue-custom{
         color: $secundary-color;
-        font-family: 'Fira Sans', sans-serif;
+        font-family: $title-typography;
         font-style: italic;
         font-weight: 500;
     }

@@ -2,7 +2,7 @@
 #sectionTraining{
 
     .text-training-title{
-        font-family: 'Fira Sans', sans-serif;
+        font-family: $title-typography;
         font-style: italic;
         font-weight: 500;
         font-size: 25px;
@@ -21,7 +21,7 @@
         }
     
     .card-numbre-left{
-        font-family: 'Fira Sans', sans-serif;
+        font-family: $title-typography;
         font-style: italic;
         font-weight: 900;
         width: 100%;
@@ -35,7 +35,7 @@
     }
 
     .card-numbre-right{
-        font-family: 'Fira Sans', sans-serif;
+        font-family: $title-typography;
         font-style: italic;
         font-weight: 900;
         width: 100%;
