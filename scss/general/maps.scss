@@ -1,0 +1,13 @@
+
+
+$colors:(
+    orange:#fa6829,
+    white:white
+);
+
+@each $color-name, $color in $colors{
+    .bk-#{$color-name}{
+        background-color: $color;
+
+    }
+}

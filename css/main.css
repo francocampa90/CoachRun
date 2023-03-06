@@ -11,6 +11,12 @@ html {
   font-family: 'Fira Sans', sans-serif;
   font-style: italic; }
 
+.bk-orange {
+  background-color: #fa6829; }
+
+.bk-white {
+  background-color: white; }
+
 header {
   background-image: url(../img/Header001.png);
   background-position: center;
@@ -32,7 +38,7 @@ header {
     justify-content: center;
     flex-direction: column; }
     header .title-center a:hover {
-      color: #FA6A2B; }
+      color: #fa6829; }
   header .title-custom {
     width: 100%;
     display: flex;
@@ -68,11 +74,11 @@ header {
       header .run {
         font-size: 15px; } }
   header .btn-orange-custom {
-    background-color: #FA6A2B; }
+    background-color: #fa6829; }
 
 #SectionContact .contact {
   padding: 15px;
-  background-color: #FA6A2B; }
+  background-color: #fa6829; }
 
 #SectionContact a {
   text-decoration: none;
@@ -255,16 +261,8 @@ footer {
   align-items: center;
   justify-content: center; }
 
-#sectionTraining .card-orange {
+#sectionTraining .card-training {
   padding: 50px 50px;
-  background-color: #FA6A2B;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-#sectionTraining .card-white {
-  padding: 50px 50px;
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -388,5 +386,5 @@ footer {
   background-color: transparent; }
   #sectionForm .cta_btn:hover {
     color: white;
-    border: 1px solid #FA6A2B;
-    background-color: #FA6A2B; }
+    border: 1px solid #fa6829;
+    background-color: #fa6829; }

@@ -65,24 +65,14 @@
         justify-content: center;
     }
 
-    .card-orange{
+    .card-training{
         padding: 50px 50px;
-        background-color: $primary-color;
         display: flex;
         align-items: center;
         justify-content: center;
-        
     }
-    .card-white{
-        padding:  50px 50px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        // @media(min-width:576px) and (max-width:768px){
-        //         padding: 10px 10px;
-        //        }
-    }
+   
+
     .aline{
         display: flex;
         align-items: center;
