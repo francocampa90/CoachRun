@@ -5,3 +5,11 @@
     height: $height;
 }
 
+
+
+@mixin font($family, $style, $weight, $size){
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+}

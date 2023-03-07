@@ -26,11 +26,7 @@
     }
 
     .coach-card{
-        font-family: $title-typography;
-        font-style: italic;
-        font-weight: 500;
         position: relative;
-
         @include size(300px, 190px); // mixin: size (width, height) 
         background-color: #FA6A2B;
         border-radius: 20px;
@@ -93,10 +89,7 @@
             }
 
             h2{
-                font-family: $title-typography;
-                font-style: italic;
-                font-weight: 500;
-                font-size: 20px;
+                @include font($title-typography, italic, 500, 20px); // mixin: font (family, style, weight, size)
                 color: white;
                 line-height: 1.2em;
             }
@@ -112,10 +105,7 @@
             display: flex;
             margin: 20px 0px;
             p{
-                font-family: $title-typography;
-                font-style: italic;
-                font-weight: 500;
-                font-size: 18px;
+                @include font($title-typography, italic, 500, 18px); // mixin: font (family, style, weight, size)
                 color: white;
                 line-height: 1.2em;
             }

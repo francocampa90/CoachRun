@@ -130,9 +130,6 @@ footer {
   align-items: center; }
 
 #sectionCoach .coach-card {
-  font-family: "Fira Sans", sans-serif;
-  font-style: italic;
-  font-weight: 500;
   position: relative;
   width: 300px;
   height: 190px;
@@ -226,10 +223,10 @@ footer {
   font-family: "Fira Sans", sans-serif;
   font-style: italic;
   font-weight: 900;
+  font-size: 50px;
   width: 100%;
   display: flex;
-  align-items: center;
-  font-size: 50px; }
+  align-items: center; }
 
 #sectionTraining .card-numbre-left {
   justify-content: left; }
