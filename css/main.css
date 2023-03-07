@@ -222,28 +222,23 @@ footer {
     #sectionTraining .text-training-p {
       font-size: 12px; } }
 
-#sectionTraining .card-numbre-left {
+#sectionTraining .cardE, #sectionTraining .card-numbre-left, #sectionTraining .card-numbre-right {
   font-family: "Fira Sans", sans-serif;
   font-style: italic;
   font-weight: 900;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: left;
   font-size: 50px; }
+
+#sectionTraining .card-numbre-left {
+  justify-content: left; }
   @media (max-width: 576px) {
     #sectionTraining .card-numbre-left {
       font-size: 35px; } }
 
 #sectionTraining .card-numbre-right {
-  font-family: "Fira Sans", sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  font-size: 50px; }
+  justify-content: right; }
   @media (max-width: 576px) {
     #sectionTraining .card-numbre-right {
       font-size: 35px;

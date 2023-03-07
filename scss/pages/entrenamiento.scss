@@ -20,29 +20,30 @@
         
         }
     
-    .card-numbre-left{
+    .cardE{
         font-family: $title-typography;
         font-style: italic;
         font-weight: 900;
         width: 100%;
         display: flex;
         align-items:center ;
-        justify-content:left;
         font-size: 50px;
+    }    
+
+
+
+
+    .card-numbre-left{
+        @extend .cardE;
+        justify-content:left;
         @media(max-width:576px){
             font-size: 35px;
             }
     }
-
     .card-numbre-right{
-        font-family: $title-typography;
-        font-style: italic;
-        font-weight: 900;
-        width: 100%;
-        display: flex;
-        align-items:center ;
+        @extend .cardE;
         justify-content:right;
-        font-size: 50px;
+
 
         @media(max-width:576px){
                 font-size: 35px;
@@ -50,6 +51,37 @@
             }   
     }
 
+    // .card-numbre-right{
+    //     font-family: $title-typography;
+    //     font-style: italic;
+    //     font-weight: 900;
+    //     width: 100%;
+    //     display: flex;
+    //     align-items:center ;
+    //     justify-content:right;
+    //     font-size: 50px;
+
+    //     @media(max-width:576px){
+    //             font-size: 35px;
+    //             justify-content:left;    
+    //         }   
+    // }
+
+    // .card-numbre-left{
+    //     font-family: $title-typography;
+    //     font-style: italic;
+    //     font-weight: 900;
+    //     width: 100%;
+    //     display: flex;
+    //     align-items:center ;
+    //     font-size: 50px;
+    //     justify-content:left;
+    //     @media(max-width:576px){
+    //         font-size: 35px;
+    //         }
+    // }
+
+    
     .card-text{
         padding: 10px 0px;
     }
