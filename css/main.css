@@ -168,9 +168,9 @@ footer {
       object-fit: cover; }
 
 #sectionCoach .coach-content {
-  position: absolute;
   width: 100%;
   height: 100%;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -332,8 +332,8 @@ footer {
     box-shadow: 0 0 6px black; }
   #sectionGallery .gallery img {
     width: 100%;
-    vertical-align: top;
     height: 300px;
+    vertical-align: top;
     object-fit: cover;
     transition: transform 0.5s; }
     #sectionGallery .gallery img:hover {

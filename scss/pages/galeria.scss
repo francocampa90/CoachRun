@@ -20,9 +20,8 @@
         }
 
         img{
-            width: 100%;
+            @include size(100%, 300px); // mixin: size (width, height)
             vertical-align: top;
-            height: 300px;
             object-fit: cover;
             transition: transform 0.5s;
 
