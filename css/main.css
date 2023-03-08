@@ -112,16 +112,22 @@ footer {
     padding: 10px;
     font-size: 13px; } }
 
-#sectionAbout .text-blue-custom {
-  color: #254E69;
+.text-blue-custom h2 {
   font-family: "Fira Sans", sans-serif;
   font-style: italic;
-  font-weight: 500; }
-  #sectionAbout .text-blue-custom h2 {
-    font-size: 30px; }
+  font-weight: 500;
+  color: #254E69;
+  font-size: 40px; }
+  @media (max-width: 576px) {
+    .text-blue-custom h2 {
+      font-size: 20px; } }
 
-#sectionAbout p {
-  font-size: 20px; }
+.text-blue-custom p {
+  color: black;
+  font-size: 19px; }
+  @media (max-width: 576px) {
+    .text-blue-custom p {
+      font-size: 12px; } }
 
 /*--animacion tarjeta--*/
 #sectionCoach .coach {
@@ -202,6 +208,63 @@ footer {
       font-size: 18px;
       color: white;
       line-height: 1.2em; }
+
+#sectionBenefits .text-benefits {
+  font-family: "Fira Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 50px;
+  color: #254E69; }
+
+#sectionBenefits .text-benefits-title {
+  font-family: "Fira Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0%; }
+  @media (max-width: 576px) {
+    #sectionBenefits .text-benefits-title {
+      font-size: 20px; } }
+
+#sectionBenefits .text-benefits-p {
+  font-size: 18px; }
+  @media (max-width: 576px) {
+    #sectionBenefits .text-benefits-p {
+      font-size: 12px; } }
+
+#sectionBenefits .card-text {
+  padding: 10px 0px; }
+
+#sectionBenefits .benefits-img {
+  width: 500px;
+  border-radius: 10px; }
+  @media (max-width: 576px) {
+    #sectionBenefits .benefits-img {
+      width: 300px; } }
+
+#sectionBenefits .benefitsImg {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#sectionBenefits .card-benefits {
+  padding: 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#sectionBenefits .aline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row; }
+  @media (max-width: 576px) {
+    #sectionBenefits .aline {
+      flex-direction: column-reverse; } }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #sectionBenefits .benefitsText {
+    padding: 0px 50px; } }
 
 #sectionTraining .text-training-title {
   font-family: "Fira Sans", sans-serif;

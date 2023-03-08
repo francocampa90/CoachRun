@@ -1,24 +1,36 @@
 
 
-#sectionAbout{
-    .text-blue-custom{
-        color: #254E69 ;
-        font-family:$title-typography;
-        font-style: italic;
-        font-weight: 500;
-        h2{
-            font-size: 30px;
-        }
-        }
-        p{
-            font-size: 20px;
-    }
-}   
 
+    .text-blue-custom{
+        
+        h2{
+            font-family:$title-typography;
+            font-style: italic;
+            font-weight: 500;
+            color: #254E69;
+            font-size: 40px;
+            @media(max-width:576px){
+                font-size: 20px;
+            }
+        }
+        
+        p{
+
+            color: black;
+            font-size: 19px;
+            @media(max-width:576px){
+                font-size: 12px;
+            }
+    }
+ 
+    }
 
 /*--animacion tarjeta--*/
 
 #sectionCoach{
+
+
+
     .coach{
         display: flex;
         justify-content: center;
@@ -110,5 +122,76 @@
                 line-height: 1.2em;
             }
         }
+    }
+}
+
+
+
+
+#sectionBenefits{
+
+    .text-benefits{
+        @include font($title-typography, italic, 500, 50px); // mixin: font (family, style, weight, size)
+        color: #254E69;
+
+    }
+
+    .text-benefits-title{
+        @include font($title-typography, italic, 500, 40px); // mixin: font (family, style, weight, size)
+        margin: 0%;
+        @media(max-width:576px){
+                font-size: 20px;  
+            }
+    }
+
+    .text-benefits-p{
+        font-size: 18px;
+        @media(max-width:576px){
+            font-size: 12px;
+            }
+        
+        }
+    
+    .card-text{
+        padding: 10px 0px;
+    }
+
+    .benefits-img{
+        width: 500px;
+        border-radius: 10px;
+        @media(max-width:576px){
+            width: 300px;
+        }
+    }
+
+    .benefitsImg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-benefits{
+        padding: 50px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .aline{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        @media(max-width:576px){
+                flex-direction: column-reverse;
+            } 
+    }
+
+    .benefitsText{
+        @media(min-width:576px) and (max-width:768px){
+            padding: 0px 50px;
+        }
+
     }
 }
