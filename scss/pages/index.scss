@@ -10,7 +10,7 @@
             color: #254E69;
             font-size: 40px;
             @media(max-width:576px){
-                font-size: 20px;
+                font-size: 25px;
             }
         }
         
@@ -133,6 +133,9 @@
     .text-benefits{
         @include font($title-typography, italic, 500, 50px); // mixin: font (family, style, weight, size)
         color: #254E69;
+        @media(max-width:576px){
+            font-size: 25px;
+        }
 
     }
 
