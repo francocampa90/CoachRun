@@ -89,7 +89,8 @@ header {
   font-size: 30; }
 
 footer {
-  background-color: #254E69; }
+  background-color: #254E69;
+  /* ----Medias query mobile----*/ }
   footer .text-footer-h2 {
     font-size: 25px;
     color: white;
@@ -98,35 +99,35 @@ footer {
     font-size: 15px;
     color: white; }
   footer a {
-    padding: 15px;
-    text-decoration: none;
-    color: white;
-    font-size: 15px; }
+    padding: 30px;
+    text-decoration: none; }
+    @media (max-width: 576px) {
+      footer a {
+        padding: 15px; } }
+    footer a img {
+      width: 38px; }
+      @media (max-width: 576px) {
+        footer a img {
+          width: 25px; } }
   footer .text-footer-made {
     font-size: 12px;
     color: #9e9c9c; }
 
-/* ----Medias query mobile----*/
-@media (max-width: 576px) {
-  .footer-a {
-    padding: 10px;
-    font-size: 13px; } }
-
-.text-blue-custom h2 {
+#sectionAbout .text-blue-custom h2 {
   font-family: "Fira Sans", sans-serif;
   font-style: italic;
   font-weight: 500;
   color: #254E69;
   font-size: 40px; }
   @media (max-width: 576px) {
-    .text-blue-custom h2 {
+    #sectionAbout .text-blue-custom h2 {
       font-size: 35px; } }
 
-.text-blue-custom p {
+#sectionAbout .text-blue-custom p {
   color: black;
   font-size: 19px; }
   @media (max-width: 576px) {
-    .text-blue-custom p {
+    #sectionAbout .text-blue-custom p {
       font-size: 12px; } }
 
 /*--animacion tarjeta--*/
