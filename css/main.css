@@ -89,8 +89,7 @@ header {
   font-size: 30; }
 
 footer {
-  background-color: #254E69;
-  /* ----Medias query mobile----*/ }
+  background-color: #254E69; }
   footer .text-footer-h2 {
     font-size: 25px;
     color: white;
