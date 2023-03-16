@@ -25,6 +25,12 @@ header {
   font-family: "Fira Sans", sans-serif;
   font-style: italic;
   font-weight: 500; }
+  header .hover-a a:hover {
+    background-color: #fa6829;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 8px;
+    transition: all 0.40s ease; }
   header .h100 {
     margin: 0%;
     padding: 0%;
