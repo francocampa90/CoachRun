@@ -1,38 +1,33 @@
 
 
-#sectionAbout{
-
-    .text-blue-custom{
-        
-        h2{
-            font-family:$title-typography;
-            font-style: italic;
-            font-weight: 500;
-            color: #254E69;
-            font-size: 40px;
-            @media(max-width:576px){
-                font-size: 35px;
-            }
+.text-custom{
+    
+    h2{
+        font-family:$title-typography;
+        font-style: italic;
+        font-weight: 500;
+        color: #254E69;
+        font-size: 40px;
+        @media(max-width:576px){
+            font-size: 35px;
         }
-        
-        p{
+    }
+    
+    p{
 
-            color: black;
-            font-size: 19px;
-            @media(max-width:576px){
-                font-size: 12px;
-            }
-    }
- 
-    }
+        color: black;
+        font-size: 19px;
+        @media(max-width:576px){
+            font-size: 12px;
+        }
 }
+
+}
+
 
 /*--animacion tarjeta--*/
 
 #sectionCoach{
-
-
-
     .coach{
         display: flex;
         justify-content: center;
@@ -128,8 +123,6 @@
 }
 
 
-
-
 #sectionBenefits{
 
     .text-benefits{
@@ -138,7 +131,6 @@
         @media(max-width:576px){
             font-size: 35px;
         }
-
     }
 
     .text-benefits-title{
@@ -146,17 +138,16 @@
         margin: 0%;
         @media(max-width:576px){
                 font-size: 20px;  
-            }
+        }
     }
 
     .text-benefits-p{
         font-size: 18px;
         @media(max-width:576px){
             font-size: 12px;
-            }
-        
         }
-    
+    }
+
     .card-text{
         padding: 10px 0px;
     }
@@ -190,13 +181,12 @@
         flex-direction: row;
         @media(max-width:576px){
                 flex-direction: column-reverse;
-            } 
+        } 
     }
 
     .benefitsText{
         @media(min-width:576px) and (max-width:768px){
             padding: 0px 50px;
         }
-
     }
 }

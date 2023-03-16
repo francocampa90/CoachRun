@@ -1,8 +1,6 @@
 
-
 /*Seccion Page Objetivos*/
 #sectionGoals{
-
     .text-goals{
         margin:  40px 0px 0px 0px;
         width: 100%;
@@ -12,8 +10,7 @@
     
      
 /*Seccion Formulario*/
-#sectionForm{
-    
+#sectionForm{   
     .form{
         width: 100%;
         display: flex;
@@ -31,7 +28,7 @@
         @media(max-width:576px){
                 padding: 30px 30px;
                 margin: 30px;  
-            }
+        }
         
     }
 

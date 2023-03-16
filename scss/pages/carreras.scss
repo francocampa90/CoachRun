@@ -13,6 +13,7 @@
         -webkit-animation: scroll 60s linear infinite;
         width: calc(400px * 14);
     }
+
     .slide2{
         width: 200px;
         img{
@@ -20,15 +21,14 @@
         }
         @media(max-width:576px){
                 width: 150px;
-            }
-        }         
+        }
+    }         
      
     @keyframes scroll{
         0% {
             -webkit-transform: translateX(0);
             transform: translateX(0);
         }
-
         100%{
             -webkit-transform: translateX(calc(-400px * 7));
             transform: translateX(calc(-400px * 7));
@@ -45,12 +45,15 @@
             align-items: center;
             font-size: 30px;
         }
+
         .card-text{
             font-size: 15px;
         }
+
         .data-text-h3{
             font-size: 18px;
         }
+        
         .data-text-h4{
             font-size: 18px;
         }

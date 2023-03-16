@@ -1,24 +1,14 @@
 
 #sectionTraining{
 
-    .text-training-title{
-        @include font($title-typography, italic, 500, 25px); // mixin: font (family, style, weight, size)
-        margin: 0%;
-        @media(max-width:576px){
-                font-size: 20px;  
-            }
-    }
-
     .text-training-p{
         font-size: 15px;
         @media(max-width:576px){
             font-size: 12px;
-            }
-        
-        }
+        }   
+    }
     
     .cardE{  // creacion de clase para operacion de Extend
-
         @include font($title-typography, italic, 900, 50px);
         width: 100%;
         display: flex;
@@ -26,26 +16,23 @@
         
     }    
 
-
     .card-numbre-left{
         @extend .cardE;
         justify-content:left;
         @media(max-width:576px){
             font-size: 35px;
-            }
+        }
     }
+
     .card-numbre-right{
         @extend .cardE;
         justify-content:right;
-
-
         @media(max-width:576px){
                 font-size: 35px;
                 justify-content:left;    
-            }   
+        }   
     }
 
-    
     .card-text{
         padding: 10px 0px;
     }
@@ -68,7 +55,6 @@
         justify-content: center;
     }
    
-
     .aline{
         display: flex;
         align-items: center;
@@ -76,13 +62,12 @@
         flex-direction: row;
         @media(max-width:576px){
                 flex-direction: column-reverse;
-            } 
+        } 
     }
 
     .trainingText{
         @media(min-width:576px) and (max-width:768px){
             padding: 0px 50px;
         }
-
     }
 }

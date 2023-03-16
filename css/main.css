@@ -112,21 +112,21 @@ footer {
     font-size: 12px;
     color: #9e9c9c; }
 
-#sectionAbout .text-blue-custom h2 {
+.text-custom h2 {
   font-family: "Fira Sans", sans-serif;
   font-style: italic;
   font-weight: 500;
   color: #254E69;
   font-size: 40px; }
   @media (max-width: 576px) {
-    #sectionAbout .text-blue-custom h2 {
+    .text-custom h2 {
       font-size: 35px; } }
 
-#sectionAbout .text-blue-custom p {
+.text-custom p {
   color: black;
   font-size: 19px; }
   @media (max-width: 576px) {
-    #sectionAbout .text-blue-custom p {
+    .text-custom p {
       font-size: 12px; } }
 
 /*--animacion tarjeta--*/
@@ -268,16 +268,6 @@ footer {
 @media (min-width: 576px) and (max-width: 768px) {
   #sectionBenefits .benefitsText {
     padding: 0px 50px; } }
-
-#sectionTraining .text-training-title {
-  font-family: "Fira Sans", sans-serif;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 25px;
-  margin: 0%; }
-  @media (max-width: 576px) {
-    #sectionTraining .text-training-title {
-      font-size: 20px; } }
 
 #sectionTraining .text-training-p {
   font-size: 15px; }
