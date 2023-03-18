@@ -24,8 +24,7 @@ header{
     .h100{
         margin: 0%;
         padding: 0%;
-        width: 100%;
-        height: 92.5vh;
+        @include size(100%, 92.5vh); // mixin: size (width, height)
     }
     .title-center{
         @include size(100%, 100%); // mixin: size (width, height)
@@ -47,7 +46,7 @@ header{
         display: flex;
         align-items: center;
         justify-content: center;
-        color: white;
+        color: $tertiary-color;
         font-size: 75px;
             @media(max-width:576px){
                 font-size: 35px;   
@@ -59,12 +58,11 @@ header{
         display: flex;
         align-items: center;
         justify-content: center;
-        color: white;
+        color:$tertiary-color;
         font-size: 45px;
         @media(max-width:576px){
             font-size: 18px;
-            }
-    
+        }
     } 
     
     
@@ -79,18 +77,16 @@ header{
         display: flex;
         align-items: center;
         justify-content: center;
-        color: white;
+        color:$tertiary-color;
         font-size: 40px;
         @media(max-width:576px){
             font-size: 15px;
-            }
+        }
     }
 
     .btn-orange-custom{
         background-color: $primary-color;
     }
-    
-
 }
 
 
