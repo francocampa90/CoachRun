@@ -77,8 +77,6 @@
         } 
     }
      
-    
-    
     .lightboxImg{
         @include size(100%, auto); // mixin: size (width, height)
         display: flex;
