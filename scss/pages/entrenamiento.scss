@@ -28,8 +28,8 @@
         @extend .cardE;
         justify-content:right;
         @media(max-width:576px){
-                font-size: 35px;
-                justify-content:left;    
+            font-size: 35px;
+            justify-content:left;    
         }   
     }
 
@@ -61,7 +61,7 @@
         justify-content: space-between;
         flex-direction: row;
         @media(max-width:576px){
-                flex-direction: column-reverse;
+            flex-direction: column-reverse;
         } 
     }
 

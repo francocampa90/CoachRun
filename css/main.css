@@ -18,13 +18,16 @@ html {
   background-color: white; }
 
 header {
-  background-image: url(../img/Header001.png);
+  background-image: url(/img/Header001.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Fira Sans", sans-serif;
   font-style: italic;
-  font-weight: 500; }
+  font-weight: 500;
+  font-size: 20px; }
+  header .logo {
+    font-size: 30px; }
   header .hover-a a:hover {
     background-color: #fa6829;
     color: white;
@@ -65,11 +68,6 @@ header {
     @media (max-width: 576px) {
       header .title2-custom {
         font-size: 18px; } }
-  header .text-blue-custom {
-    color: #254E69;
-    font-family: "Fira Sans", sans-serif;
-    font-style: italic;
-    font-weight: 500; }
   header .run {
     display: flex;
     align-items: center;
@@ -92,7 +90,7 @@ header {
   font-family: "Fira Sans", sans-serif;
   font-style: italic;
   font-weight: 500;
-  font-size: 30; }
+  font-size: 30px; }
 
 footer {
   background-color: #254E69; }
@@ -342,8 +340,8 @@ footer {
 
 #sectionCarousel .sliderTrack2 {
   display: flex;
-  animation: scroll 60s linear infinite;
-  -webkit-animation: scroll 60s linear infinite;
+  animation: scroll 120s linear infinite;
+  -webkit-animation: scroll 120s linear infinite;
   width: calc(400px * 14); }
 
 #sectionCarousel .slide2 {
@@ -380,6 +378,9 @@ footer {
   margin: 60px 0px;
   font-size: 40px;
   color: #254E69; }
+  @media (max-width: 576px) {
+    #sectionGallery .sectionGallery__titulo {
+      font-size: 24px; } }
 
 #sectionGallery .gallery {
   margin: 0;
@@ -392,14 +393,17 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around; }
   #sectionGallery .gallery li {
-    margin: 5px; }
+    margin: 9px; }
+    @media (max-width: 576px) {
+      #sectionGallery .gallery li {
+        margin: 5px; } }
   #sectionGallery .gallery .imgGa {
     display: block;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 6px black; }
   #sectionGallery .gallery img {
-    width: 450px;
+    width: 400px;
     height: auto;
     vertical-align: top;
     object-fit: cover;
@@ -415,13 +419,13 @@ footer {
   display: none; }
 
 #sectionGallery .lightbox:target {
+  width: 100%;
+  height: 100%;
   display: block;
   position: fixed;
   background: rgba(0, 0, 0, 0.8);
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
+  left: 0; }
   #sectionGallery .lightbox:target h3 {
     font-family: "Fira Sans", sans-serif;
     font-style: italic;
@@ -436,7 +440,7 @@ footer {
 
 #sectionGallery .lightboxImg {
   width: 100%;
-  height: 50%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -457,8 +461,8 @@ footer {
           width: 300px;
           height: auto; } }
   #sectionGallery .lightboxImg img {
-    width: 500px;
-    height: 100%;
+    width: 800px;
+    height: auto;
     max-width: 100%;
     border: 7px solid #fff;
     box-sizing: border-box; }
@@ -468,8 +472,7 @@ footer {
         height: auto; } }
 
 #sectionGallery .cerrar {
-  display: flex;
-  justify-content: center;
+  display: block;
   align-items: center;
   background: white;
   width: 30px;

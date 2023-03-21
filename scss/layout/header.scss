@@ -1,13 +1,14 @@
 
 header{
-    background-image: url(../img/Header001.png);
+    background-image: url(/img/Header001.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: $title-typography;
-    font-style: italic;
-    font-weight: 500; 
+    @include font($title-typography, italic, 500, 20px); // mixin: font (family, style, weight, size)
     
+    .logo{
+        font-size: 30px;
+    }
     .hover-a{
         a{
             &:hover{
@@ -20,7 +21,6 @@ header{
         }      
     }
     
-
     .h100{
         margin: 0%;
         padding: 0%;
@@ -40,7 +40,6 @@ header{
         }
     }
 
-    
     .title-custom{
         width: 100%;
         display: flex;
@@ -50,9 +49,9 @@ header{
         font-size: 75px;
             @media(max-width:576px){
                 font-size: 35px;   
-            }
-        
+            }   
     }
+
     .title2-custom{
         width: 100%;
         display: flex;
@@ -65,14 +64,6 @@ header{
         }
     } 
     
-    
-    .text-blue-custom{
-        color: $secundary-color;
-        font-family: $title-typography;
-        font-style: italic;
-        font-weight: 500;
-    }
-
     .run{
         display: flex;
         align-items: center;

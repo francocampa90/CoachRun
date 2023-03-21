@@ -8,9 +8,6 @@
         a{
             text-decoration: none;
             color: white;
-            font-family: $title-typography;
-            font-style: italic;
-            font-weight: 500;
-            font-size: 30;
+            @include font($title-typography, italic, 500, 30px); // mixin: font (family, style, weight, size)
         }
 }

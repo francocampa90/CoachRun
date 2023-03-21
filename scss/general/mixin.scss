@@ -1,11 +1,8 @@
 
-
 @mixin size($width, $height){
     width: $width;
     height: $height;
 }
-
-
 
 @mixin font($family, $style, $weight, $size){
     font-family: $family;
